@@ -2,8 +2,8 @@
   "private": true,
   "author": "Jingchao Di <alswlx@gmail.com>",
   "scripts": {
-    "dev": "umi dev",
     "build": "umi build",
+    "dev": "umi dev",
     "postinstall": "umi setup",
     "setup": "umi setup",
     "start": "npm run dev"

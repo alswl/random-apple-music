@@ -57,7 +57,7 @@ export default function HomePage() {
           >
             Github
           </Button>
-          <Button type={'link'} href={'https://x/alswl'}>
+          <Button type={'link'} href={'https://x.com/alswl'}>
             @alswl
           </Button>
         </Flex>

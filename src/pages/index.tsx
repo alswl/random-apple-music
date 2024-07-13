@@ -74,6 +74,11 @@ export default function HomePage() {
               <AntdImage src={album.coverURL} width={300} preview={false} />
             }
             actions={[
+              <Tooltip title="Go to Douban Album page">
+                <Button type={'text'} href={album.doubanURL} target={'_blank'}>
+                  <InfoOutlined key={'info'}></InfoOutlined>
+                </Button>
+              </Tooltip>,
               <Tooltip title="Play in Apple Music">
                 <Button
                   type={'text'}
@@ -87,11 +92,6 @@ export default function HomePage() {
               <Tooltip title="Next Random Album">
                 <Button type={'text'} href={'#'} onClick={next}>
                   <StepForwardOutlined key={'next'} />
-                </Button>
-              </Tooltip>,
-              <Tooltip title="Go to Douban Album page">
-                <Button type={'text'} href={album.doubanURL} target={'_blank'}>
-                  <InfoOutlined key={'info'}></InfoOutlined>
                 </Button>
               </Tooltip>,
             ]}

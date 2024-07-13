@@ -5,7 +5,8 @@ import {
   InfoOutlined,
   StepForwardOutlined,
 } from '@ant-design/icons';
-import { Image as AntdImage, Button, Card, Flex, Tooltip } from 'antd';
+import { Image as AntdImage, Button, Card, Flex, message, Tooltip } from 'antd';
+import * as Bowser from 'bowser';
 import { useEffect, useState } from 'react';
 import { defineApp, Helmet } from 'umi';
 
@@ -22,9 +23,9 @@ function setTitle(title: string) {
 }
 
 export default function HomePage() {
-  // useState
   const [album, setAlbum] = useState<Album>(Album.blank);
   const [nextAlbum, setNextAlbum] = useState<Album>(randomAlbum());
+  const [messageApi, contextHolder] = message.useMessage();
 
   function next() {
     let a = nextAlbum;
@@ -42,6 +43,18 @@ export default function HomePage() {
     next();
   }, []);
 
+  useEffect(() => {
+    const browser = Bowser.getParser(window.navigator.userAgent);
+    if (!browser.isBrowser('Safari')) {
+      messageApi.open({
+        type: 'warning',
+        content:
+          'Recommend to use Safari on macOS or iOS to open Apple Music directly',
+        duration: 10,
+      });
+    }
+  }, []);
+
   return (
     <>
       <Helmet>
@@ -49,6 +62,7 @@ export default function HomePage() {
           {album.title} - {album.artiste}
         </title>
       </Helmet>
+      {contextHolder}
       <Flex gap="middle" align="end" vertical>
         <Flex style={{ width: '100%' }} justify={'end'} align={'top'}>
           <Button

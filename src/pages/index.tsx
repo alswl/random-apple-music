@@ -53,11 +53,16 @@ export default function HomePage() {
         <Flex style={{ width: '100%' }} justify={'end'} align={'top'}>
           <Button
             type={'link'}
+            style={{ color: '#e3e3e3' }}
             href={'https://github.com/alswl/random-apple-music'}
           >
             Github
           </Button>
-          <Button type={'link'} href={'https://x.com/alswl'}>
+          <Button
+            type={'link'}
+            style={{ color: '#e3e3e3' }}
+            href={'https://x.com/alswl'}
+          >
             @alswl
           </Button>
         </Flex>

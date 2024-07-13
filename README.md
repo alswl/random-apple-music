@@ -14,6 +14,6 @@ Random Apple Music
 
 🐙 源码 https://github.com/alswl/random-apple-music
 
-Provider:
+Data provider:
 
 - Douban top250 albums [豆瓣音乐 Top 250](https://music.douban.com/top250)

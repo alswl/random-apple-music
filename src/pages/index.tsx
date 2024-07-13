@@ -1,42 +1,106 @@
+import { Album } from '@/models/album';
+import { randomAlbum } from '@/services/douban_top_250';
 import {
   CaretRightOutlined,
   InfoOutlined,
   StepForwardOutlined,
 } from '@ant-design/icons';
-import { Card, Col, Row } from 'antd';
+import { Image as AntdImage, Button, Card, Flex, Tooltip } from 'antd';
+import { useEffect, useState } from 'react';
+import { defineApp, Helmet } from 'umi';
 
 const { Meta } = Card;
 
+function setTitle(title: string) {
+  defineApp({
+    layout: () => {
+      return {
+        title: title,
+      };
+    },
+  });
+}
+
 export default function HomePage() {
+  // useState
+  const [album, setAlbum] = useState<Album>(Album.blank);
+  const [nextAlbum, setNextAlbum] = useState<Album>(randomAlbum());
+
+  function next() {
+    let a = nextAlbum;
+    setAlbum(a);
+    setTitle(`${a.title} - ${a.artiste}`);
+
+    const n = randomAlbum();
+    setNextAlbum(n);
+    // pre load next album image
+    const img = new Image();
+    img.src = n.coverURL;
+  }
+
+  useEffect(() => {
+    next();
+  }, []);
+
   return (
-    <Row justify="center" align="middle" style={{ margin: '20px 0px 20px' }}>
-      <Col xs={24} sm={12} md={8} lg={6} xl={4}>
-        <Card
-          style={{ width: 300 }}
-          cover={
-            <img src="https://e25ba8-log4d-c.dijingchao.com/202302/1675664205664-15960011-481e-4736-ad81-617656f3d315.png" />
-          }
-          actions={[
-            <a
-              href={
-                'https://music.apple.com/cn/album/viva-la-vida-or-death-and-all-his-friends/1122773394?l=en'
-              }
-              target={'_blank'}
-            >
-              <CaretRightOutlined key="play" />,
-            </a>,
-            <StepForwardOutlined key={'next'} />,
-            <a
-              href={'https://music.douban.com/subject/3040149/'}
-              target={'_blank'}
-            >
-              <InfoOutlined key={'info'}></InfoOutlined>,
-            </a>,
-          ]}
+    <>
+      <Helmet>
+        <title>
+          {album.title} - {album.artiste}
+        </title>
+      </Helmet>
+      <Flex gap="middle" align="end" vertical>
+        <Flex style={{ width: '100%' }} justify={'end'} align={'top'}>
+          <Button
+            type={'link'}
+            href={'https://github.com/alswl/random-apple-music'}
+          >
+            Github
+          </Button>
+          <Button type={'link'} href={'https://x/alswl'}>
+            @alswl
+          </Button>
+        </Flex>
+      </Flex>
+      <Flex gap="middle" align="start" vertical>
+        <Flex
+          style={{ width: '100%', height: '500px' }}
+          justify={'center'}
+          align={'center'}
         >
-          <Meta title="Viva La Vida" description="Coldplay" />
-        </Card>
-      </Col>
-    </Row>
+          <Card
+            style={{ width: 300 }}
+            cover={
+              <AntdImage src={album.coverURL} width={300} preview={false} />
+            }
+            actions={[
+              <Tooltip title="Play in Apple Music">
+                <Button
+                  type={'text'}
+                  href={album.appleMusicURL}
+                  target={'_blank'}
+                  disabled={album.appleMusicURL == ''}
+                >
+                  <CaretRightOutlined key="play" />
+                </Button>
+              </Tooltip>,
+              <Tooltip title="Next Random Album">
+                <Button type={'text'} href={'#'} onClick={next}>
+                  <StepForwardOutlined key={'next'} />
+                </Button>
+              </Tooltip>,
+              <Tooltip title="Go to Douban Album page">
+                <Button type={'text'} href={album.doubanURL} target={'_blank'}>
+                  <InfoOutlined key={'info'}></InfoOutlined>
+                </Button>
+              </Tooltip>,
+            ]}
+          >
+            <Meta title={album.title} description={album.artiste} />
+            <Meta description={album.rating} />
+          </Card>
+        </Flex>
+      </Flex>
+    </>
   );
 }

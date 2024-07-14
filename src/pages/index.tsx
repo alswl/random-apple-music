@@ -45,11 +45,16 @@ export default function HomePage() {
 
   useEffect(() => {
     const browser = Bowser.getParser(window.navigator.userAgent);
-    if (!browser.isBrowser('Safari')) {
+    const isValidBrowser = browser.satisfies({
+      safari: '>=0',
+      ios: '>=0',
+    });
+
+    if (!isValidBrowser) {
       messageApi.open({
         type: 'warning',
         content:
-          'Recommend to use Safari on macOS or iOS to open Apple Music directly',
+          'For optimal experience, use Safari on macOS or iOS to directly access Apple Music.',
         duration: 10,
       });
     }
@@ -116,7 +121,8 @@ export default function HomePage() {
             ]}
           >
             <Meta title={album.title} description={album.artiste} />
-            <Meta description={album.rating} />
+            <Meta description={`${album.rating}`} />
+            <Meta description={`${album.date} / ${album.style}`} />
           </Card>
         </Flex>
       </Flex>

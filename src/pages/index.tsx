@@ -95,10 +95,19 @@ export default function HomePage() {
           <Card
             style={{ width: 300 }}
             cover={
-              <AntdImage src={album.coverURL} width={300} preview={false} />
+              <div
+                style={{
+                  width: 300,
+                  height: 300,
+                  overflow: 'hidden',
+                  justifyContent: 'center',
+                }}
+              >
+                <AntdImage src={album.coverURL} width={300} preview={false} />
+              </div>
             }
             actions={[
-              <Tooltip title="Go to Douban Album page">
+              <Tooltip title="Douban Album page">
                 <Button type={'text'} href={album.doubanURL} target={'_blank'}>
                   <InfoOutlined key={'info'}></InfoOutlined>
                 </Button>
@@ -114,7 +123,11 @@ export default function HomePage() {
                 </Button>
               </Tooltip>,
               <Tooltip title="Next Random Album">
-                <Button type={'text'} href={'#'} onClick={next}>
+                <Button
+                  type={'text'}
+                  href={'javascript:void(0)'}
+                  onClick={next}
+                >
                   <StepForwardOutlined key={'next'} />
                 </Button>
               </Tooltip>,

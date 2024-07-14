@@ -1,7 +1,7 @@
 const doubanTop250 = [
   {
     title: 'We Sing. We Dance. We Steal Things.',
-    artiste: 'Jason',
+    artiste: 'Jason Mraz',
     style: '民谣',
     rating: '9.1 ( 115738人评价 )',
     date: '2008-05-13',
@@ -130,7 +130,7 @@ const doubanTop250 = [
 
   {
     title: 'Once (Soundtrack) | Once / 电影《曾经》原声大碟',
-    artiste: 'Glen',
+    artiste: 'Glen Hansard,Marketa Irglova',
     style: '原声',
     rating: '9.2 ( 72580人评价 )',
     date: '2007-05-22',
@@ -143,7 +143,7 @@ const doubanTop250 = [
 
   {
     title: 'Not Going Anywhere | 守候',
-    artiste: 'Keren',
+    artiste: 'Keren Ann',
     style: '民谣',
     rating: '8.9 ( 62347人评价 )',
     date: '2004-08-24',
@@ -156,7 +156,7 @@ const doubanTop250 = [
 
   {
     title: 'American Idiot',
-    artiste: 'Green',
+    artiste: 'Green Day',
     style: '摇滚',
     rating: '9.0 ( 72130人评价 )',
     date: '2004-09-21',
@@ -220,7 +220,7 @@ const doubanTop250 = [
 
   {
     title: 'O',
-    artiste: 'Damien',
+    artiste: 'Damien Rice',
     style: '流行',
     rating: '9.1 ( 52588人评价 )',
     date: '2003',
@@ -232,7 +232,7 @@ const doubanTop250 = [
 
   {
     title: 'Wake Me Up When September Ends | 九月结束的时候叫醒我',
-    artiste: 'Green',
+    artiste: 'Green Day',
     style: '摇滚',
     rating: '9.4 ( 54233人评价 )',
     date: '2005-06-13',
@@ -411,7 +411,7 @@ const doubanTop250 = [
 
   {
     title: 'Let Go | 展翅高飞',
-    artiste: 'Avril',
+    artiste: 'Avril Lavigne',
     style: '摇滚',
     rating: '8.9 ( 55425人评价 )',
     date: '2002',
@@ -475,7 +475,7 @@ const doubanTop250 = [
 
   {
     title: 'Lady & Bird',
-    artiste: 'Lady',
+    artiste: 'Lady & Bird',
     style: '民谣',
     rating: '8.8 ( 43532人评价 )',
     date: '2003',
@@ -500,7 +500,7 @@ const doubanTop250 = [
 
   {
     title: 'Meteora | 流星圣殿',
-    artiste: 'Linkin',
+    artiste: 'Linkin Park',
     style: '摇滚',
     rating: '9.1 ( 45142人评价 )',
     date: '2003-03-25',
@@ -512,7 +512,7 @@ const doubanTop250 = [
 
   {
     title: 'Back To Bedlam | 不安於室',
-    artiste: 'James',
+    artiste: 'James Blunt',
     style: '流行',
     rating: '9.0 ( 43229人评价 )',
     date: '2004',
@@ -561,7 +561,7 @@ const doubanTop250 = [
 
   {
     title: "Le Fabuleux destin d'Amélie Poulain | 天使爱美丽",
-    artiste: 'Yann',
+    artiste: 'Yann Tiersen',
     style: '原声',
     rating: '9.4 ( 44514人评价 )',
     date: '2001-04-23',
@@ -587,7 +587,7 @@ const doubanTop250 = [
 
   {
     title: 'A Plea En Vendredi',
-    artiste: 'Tamas',
+    artiste: 'Tamas Wells',
     style: '民谣',
     rating: '9.0 ( 39351人评价 )',
     date: '2006',
@@ -637,7 +637,7 @@ const doubanTop250 = [
 
   {
     title: 'Music For Tourists',
-    artiste: 'Chris',
+    artiste: 'Chris Garneau',
     style: '民谣',
     rating: '8.8 ( 39023人评价 )',
     date: '2007-01-23',
@@ -725,7 +725,7 @@ const doubanTop250 = [
 
   {
     title: '菊次郎の夏 | Kikujiro (1999 Film)',
-    artiste: 'Joe',
+    artiste: 'Joe Hisaishi',
     style: '原声',
     rating: '9.5 ( 49564人评价 )',
     date: '1999-05-19',
@@ -738,7 +738,7 @@ const doubanTop250 = [
 
   {
     title: 'Fearless',
-    artiste: 'Taylor',
+    artiste: 'Taylor Swift',
     style: '流行',
     rating: '8.7 ( 53119人评价 )',
     date: '2008-11-11',
@@ -789,7 +789,7 @@ const doubanTop250 = [
 
   {
     title: 'Les Choristes | 放牛班的春天',
-    artiste: 'Bruno',
+    artiste: 'Bruno Coulais',
     style: '原声',
     rating: '9.5 ( 37888人评价 )',
     date: '2004-05-03',
@@ -815,7 +815,7 @@ const doubanTop250 = [
 
   {
     title: '9',
-    artiste: 'Damien',
+    artiste: 'Damien Rice',
     style: '民谣',
     rating: '9.0 ( 36862人评价 )',
     date: '2006-11-06',
@@ -916,7 +916,7 @@ const doubanTop250 = [
 
   {
     title: 'Say I Am You',
-    artiste: 'The',
+    artiste: 'The Weepies',
     style: '民谣',
     rating: '8.6 ( 39732人评价 )',
     date: '2006',
@@ -942,7 +942,7 @@ const doubanTop250 = [
 
   {
     title: 'Under My Skin',
-    artiste: 'Avril',
+    artiste: 'Avril Lavigne',
     style: '摇滚',
     rating: '8.6 ( 40059人评价 )',
     date: '2004-05-12',
@@ -979,7 +979,7 @@ const doubanTop250 = [
 
   {
     title: 'Mr. A-Z | 英语老师',
-    artiste: 'Jason',
+    artiste: 'Jason Mraz',
     style: '流行',
     rating: '9.0 ( 34498人评价 )',
     date: '2005-07-04',
@@ -1017,7 +1017,7 @@ const doubanTop250 = [
 
   {
     title: "I'm Yours",
-    artiste: 'Jason',
+    artiste: 'Jason Mraz',
     style: '民谣',
     rating: '9.4 ( 39203人评价 )',
     date: '2008-12-16',
@@ -1134,7 +1134,7 @@ const doubanTop250 = [
 
   {
     title: 'Born to Die | 向死而生（大陆） / 生死相守 （台）',
-    artiste: 'Lana',
+    artiste: 'Lana Del Rey',
     style: '流行',
     rating: '8.8 ( 48967人评价 )',
     date: '2012-01-31',
@@ -1147,7 +1147,7 @@ const doubanTop250 = [
 
   {
     title: 'The Wall | 迷墙',
-    artiste: 'Pink',
+    artiste: 'Pink Floyd',
     style: '摇滚',
     rating: '9.4 ( 45083人评价 )',
     date: '1979',
@@ -1172,7 +1172,7 @@ const doubanTop250 = [
 
   {
     title: 'Hybrid Theory | 混合理论',
-    artiste: 'Linkin',
+    artiste: 'Linkin Park',
     style: '摇滚',
     rating: '9.0 ( 33231人评价 )',
     date: '2000',
@@ -1211,7 +1211,7 @@ const doubanTop250 = [
 
   {
     title: 'In Between Dreams',
-    artiste: 'Jack',
+    artiste: 'Jack Johnson',
     style: '民谣',
     rating: '9.1 ( 29785人评价 )',
     date: '2005-03-22',
@@ -1275,7 +1275,7 @@ const doubanTop250 = [
 
   {
     title: 'The Legend of 1900 | 海上钢琴师',
-    artiste: 'Ennio',
+    artiste: 'Ennio Morricone',
     style: '原声',
     rating: '9.5 ( 35883人评价 )',
     date: '1999-10-12',
@@ -1314,7 +1314,7 @@ const doubanTop250 = [
 
   {
     title: 'The Best Damn Thing | 美丽坏东西',
-    artiste: 'Avril',
+    artiste: 'Avril Lavigne',
     style: '摇滚',
     rating: '7.9 ( 36865人评价 )',
     date: '2007-04-17',
@@ -1340,7 +1340,7 @@ const doubanTop250 = [
 
   {
     title: '1 | The Beatles 1 / No.1',
-    artiste: 'The',
+    artiste: 'The Beatles',
     style: '摇滚',
     rating: '9.5 ( 31020人评价 )',
     date: '2000',
@@ -1487,7 +1487,7 @@ const doubanTop250 = [
 
   {
     title: 'Come Away with Me | 远走高飞',
-    artiste: 'Norah',
+    artiste: 'Norah Jones',
     style: '爵士',
     rating: '8.9 ( 30541人评价 )',
     date: '2002',
@@ -1525,7 +1525,7 @@ const doubanTop250 = [
 
   {
     title: '21st Century Breakdown',
-    artiste: 'Green',
+    artiste: 'Green Day',
     style: '摇滚',
     rating: '8.7 ( 30578人评价 )',
     date: '2009-05-15',
@@ -1654,7 +1654,8 @@ const doubanTop250 = [
 
   {
     title: '不能说的秘密 | 不能說的秘密',
-    artiste: '周杰倫,Terdsak',
+    artiste:
+      '周杰倫,Terdsak Janpan,詹宇豪,陳承麒,黃婉琦,姚蘇蓉,黃俊郎,江語晨,長榮交響樂團',
     style: '原声',
     rating: '9.1 ( 45209人评价 )',
     date: '2007-08-13',
@@ -1678,7 +1679,7 @@ const doubanTop250 = [
 
   {
     title: 'All The Lost Souls',
-    artiste: 'James',
+    artiste: 'James Blunt',
     style: '流行',
     rating: '8.6 ( 26484人评价 )',
     date: '2007-09-18',
@@ -1715,7 +1716,7 @@ const doubanTop250 = [
 
   {
     title: 'Minutes to Midnight',
-    artiste: 'Linkin',
+    artiste: 'Linkin Park',
     style: '摇滚',
     rating: '8.4 ( 27501人评价 )',
     date: '2007-05-15',
@@ -1766,7 +1767,7 @@ const doubanTop250 = [
 
   {
     title: 'The Dark Side of the Moon',
-    artiste: 'Pink',
+    artiste: 'Pink Floyd',
     style: '摇滚',
     rating: '9.5 ( 45690人评价 )',
     date: '1973',
@@ -1880,7 +1881,7 @@ const doubanTop250 = [
 
   {
     title: 'Now The Day Is Over | 美好的一天',
-    artiste: 'The',
+    artiste: 'The Innocence Mission',
     style: '民谣',
     rating: '8.5 ( 24692人评价 )',
     date: '2004',
@@ -1991,7 +1992,7 @@ const doubanTop250 = [
 
   {
     title: "It Won't Be Soon Before Long | It Won't Be Soon Before Long",
-    artiste: 'Maroon',
+    artiste: 'Maroon 5',
     style: '流行',
     rating: '8.4 ( 25476人评价 )',
     date: '2007-05-22',
@@ -2067,7 +2068,7 @@ const doubanTop250 = [
 
   {
     title: 'These Friends Of Mine',
-    artiste: 'Rosie',
+    artiste: 'Rosie Thomas',
     style: '民谣',
     rating: '8.8 ( 23227人评价 )',
     date: '2007-03-13',
@@ -2091,7 +2092,7 @@ const doubanTop250 = [
 
   {
     title: 'It＇s Not Me It＇s You | 非我即你',
-    artiste: 'Lily',
+    artiste: 'Lily Allen',
     style: '流行',
     rating: '8.2 ( 24122人评价 )',
     date: '2009-02-09',
@@ -2214,7 +2215,7 @@ const doubanTop250 = [
 
   {
     title: 'Lady Sleep | 睡美人',
-    artiste: 'Maximilian',
+    artiste: 'Maximilian Hecker',
     style: '摇滚',
     rating: '8.8 ( 21513人评价 )',
     date: '2005',
@@ -2366,7 +2367,7 @@ const doubanTop250 = [
 
   {
     title: 'The Velvet Underground & Nico | 地下丝绒与妮可',
-    artiste: 'The',
+    artiste: 'The Velvet Underground,Nico',
     style: '摇滚',
     rating: '9.3 ( 31513人评价 )',
     date: '1967-04',
@@ -2404,7 +2405,7 @@ const doubanTop250 = [
 
   {
     title: 'The Boat That Rocked',
-    artiste: 'Original',
+    artiste: 'Original Soundtrack',
     style: '原声',
     rating: '9.3 ( 20223人评价 )',
     date: '2009-03-30',
@@ -2606,7 +2607,7 @@ const doubanTop250 = [
 
   {
     title: "Maybe I'm Dreaming | 可能我在做梦",
-    artiste: 'Owl',
+    artiste: 'Owl City',
     style: '流行',
     rating: '8.4 ( 20707人评价 )',
     date: '2008-03-18',
@@ -2631,7 +2632,7 @@ const doubanTop250 = [
 
   {
     title: 'Let It Be',
-    artiste: 'The',
+    artiste: 'The Beatles',
     style: '摇滚',
     rating: '9.5 ( 25678人评价 )',
     date: '1990-10-25',
@@ -2643,7 +2644,7 @@ const doubanTop250 = [
 
   {
     title: 'Alright,Still | 一如既往',
-    artiste: 'Lily',
+    artiste: 'Lily Allen',
     style: '流行',
     rating: '8.4 ( 20280人评价 )',
     date: '2006',
@@ -2719,7 +2720,7 @@ const doubanTop250 = [
 
   {
     title: 'Under the Radar | 墜入琴網',
-    artiste: 'Daniel',
+    artiste: 'Daniel Powter',
     style: '流行',
     rating: '8.5 ( 19397人评价 )',
     date: '2008-10-14',
@@ -2795,7 +2796,7 @@ const doubanTop250 = [
 
   {
     title: 'Songs About Jane',
-    artiste: 'Maroon',
+    artiste: 'Maroon 5',
     style: '流行',
     rating: '8.8 ( 21946人评价 )',
     date: '2002',
@@ -2808,7 +2809,7 @@ const doubanTop250 = [
 
   {
     title: 'Back To Black',
-    artiste: 'Amy',
+    artiste: 'Amy Winehouse',
     style: '放克/灵歌/R&B',
     rating: '8.9 ( 22840人评价 )',
     date: '2006-10-30',
@@ -2846,7 +2847,7 @@ const doubanTop250 = [
 
   {
     title: 'E=MC² | 爱的方程式',
-    artiste: 'Mariah',
+    artiste: 'Mariah Carey',
     style: '放克/灵歌/R&B',
     rating: '8.6 ( 21245人评价 )',
     date: '2008-04-16',
@@ -2858,7 +2859,7 @@ const doubanTop250 = [
 
   {
     title: '9 Crimes',
-    artiste: 'Damien',
+    artiste: 'Damien Rice',
     style: '民谣',
     rating: '9.4 ( 18711人评价 )',
     date: '2006-11-27',
@@ -2923,7 +2924,7 @@ const doubanTop250 = [
 
   {
     title: '21 Guns',
-    artiste: 'Green',
+    artiste: 'Green Day',
     style: '流行',
     rating: '9.2 ( 20417人评价 )',
     date: '2009-07-14',
@@ -3012,7 +3013,7 @@ const doubanTop250 = [
 
   {
     title: 'xx同名专辑',
-    artiste: 'The',
+    artiste: 'The xx',
     style: '摇滚',
     rating: '8.9 ( 22501人评价 )',
     date: '2009-08-17',
@@ -3038,7 +3039,7 @@ const doubanTop250 = [
   {
     title:
       "如果看見地獄，我就不怕魔鬼 | If I See Hell, I Won't Be Afraid of Demons",
-    artiste: 'Tizzy',
+    artiste: 'Tizzy Bac',
     style: '流行',
     rating: '8.2 ( 19128人评价 )',
     date: '2009-02-13',
@@ -3077,10 +3078,10 @@ const doubanTop250 = [
 
   {
     title: 'Poker Face | 扑克脸',
-    artiste: 'Lady',
+    artiste: 'Lady Gaga',
     style: '流行',
     rating: '8.8 ( 25206人评价 )',
-    date: 'September',
+    date: '2008-09',
     coverURL:
       'https://e25ba8-log4d-c.dijingchao.com/202302/1675664375065-352a6084-0232-4635-9515-47b55181f96b.jpeg',
     appleMusicURL:

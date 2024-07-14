@@ -111,7 +111,8 @@ const doubanTop250 = [
     date: '2004-02-02',
     coverURL:
       'https://e25ba8-log4d-c.dijingchao.com/202302/1675664206079-9c7f33a4-a97f-4a59-bba9-d444bdfb228a.png',
-    appleMusicURL: '',
+    appleMusicURL:
+      'https://music.apple.com/cn/album/%E6%97%85%E8%A1%8C%E7%9A%84%E6%84%8F%E7%BE%A9-single/1229089359?l=en-GB',
     doubanURL: 'https://music.douban.com/subject/1395089/',
   },
 
@@ -961,7 +962,8 @@ const doubanTop250 = [
     date: '2004-10-1',
     coverURL:
       'https://e25ba8-log4d-c.dijingchao.com/202302/1675664290835-f419f319-ae49-4a8b-9be1-60e9eaa54cc9.jpeg',
-    appleMusicURL: '',
+    appleMusicURL:
+      'https://music.apple.com/cn/album/%E5%AD%AB%E7%87%95%E5%A7%BFstefanie%E5%90%8C%E5%90%8D%E5%B0%88%E8%BC%AF/255921035?l=en-GB',
     doubanURL: 'https://music.douban.com/subject/1406256/',
   },
 
@@ -1596,7 +1598,8 @@ const doubanTop250 = [
     date: '2004',
     coverURL:
       'https://e25ba8-log4d-c.dijingchao.com/202302/1675664324647-256da2b4-a0a2-4e9b-8906-5b79fe6f16d7.jpeg',
-    appleMusicURL: '',
+    appleMusicURL:
+      'https://music.apple.com/cn/album/young-for-you/1678931109?l=en-GB',
     doubanURL: 'https://music.douban.com/subject/1758337/',
   },
 
@@ -2074,7 +2077,8 @@ const doubanTop250 = [
     date: '2007-03-13',
     coverURL:
       'https://e25ba8-log4d-c.dijingchao.com/202302/1675664336055-0bd782df-150a-43b4-8e2f-d140925aa54f.jpeg',
-    appleMusicURL: '',
+    appleMusicURL:
+      'https://music.apple.com/cn/album/these-friends-of-mine-expanded-edition/1598408766?l=en-GB',
     doubanURL: 'https://music.douban.com/subject/1999781/',
   },
 
@@ -2133,7 +2137,8 @@ const doubanTop250 = [
     rating: '8.3 ( 23581人评价 )',
     date: '2007-07-12',
     coverURL: 'https://e25ba8-log4d-c.dijingchao.com/202302/s2616588.jpg',
-    appleMusicURL: '',
+    appleMusicURL:
+      'https://music.apple.com/cn/album/%E6%B6%88%E5%A4%B1%E7%9A%84%E5%85%89%E5%B9%B4/1728807828?l=en-GB',
     doubanURL: 'https://music.douban.com/subject/2144752/',
   },
 
@@ -2221,7 +2226,8 @@ const doubanTop250 = [
     date: '2005',
     coverURL:
       'https://e25ba8-log4d-c.dijingchao.com/202302/1675664345417-c3025373-8d3d-4215-a586-fcf1b60325cc.jpeg',
-    appleMusicURL: '',
+    appleMusicURL:
+      'https://music.apple.com/cn/album/lady-sleep/1475889291?l=en-GB',
     doubanURL: 'https://music.douban.com/subject/1419566/',
   },
 
@@ -2942,7 +2948,8 @@ const doubanTop250 = [
     date: '2003-03-07',
     coverURL:
       'https://e25ba8-log4d-c.dijingchao.com/202302/1675664373200-1d78e649-6036-48df-a88b-17e7c6c4b0f0.jpeg',
-    appleMusicURL: '',
+    appleMusicURL:
+      'https://music.apple.com/cn/album/%E7%9C%8B%E6%88%9172%E8%AE%8A/320494434?l=en-GB',
     doubanURL: 'https://music.douban.com/subject/6540851/',
   },
 

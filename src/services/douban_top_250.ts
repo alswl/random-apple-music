@@ -797,7 +797,7 @@ const doubanTop250 = [
     coverURL:
       'https://e25ba8-log4d-c.dijingchao.com/202302/1675664283178-5314e9a4-c0aa-457e-ba29-cc5254439d8e.jpeg',
     appleMusicURL:
-      'https://music.apple.com/cn/album/the-chorus-original-motion-picture-soundtrack/589789036?l=en',
+      'https://music.apple.com/cn/album/les-choristes-bande-originale-du-film/1674898186?l=en-GB',
     doubanURL: 'https://music.douban.com/subject/1394803/',
   },
 

@@ -1104,7 +1104,7 @@ const doubanTop250 = [
     coverURL:
       'https://e25ba8-log4d-c.dijingchao.com/202302/1675664291697-6541292a-aa2a-496e-9f54-8928110be643.jpeg',
     appleMusicURL:
-      'https://music.apple.com/cn/album/%E5%93%BC%E4%B8%80%E9%A6%96%E6%AD%8C%E7%AD%89%E6%97%A5%E8%90%BD/1564068486?l=en',
+      '',
     doubanURL: 'https://music.douban.com/subject/4116446/',
   },
 

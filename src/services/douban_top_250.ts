@@ -1103,8 +1103,7 @@ const doubanTop250 = [
     date: '2009-11-11',
     coverURL:
       'https://e25ba8-log4d-c.dijingchao.com/202302/1675664291697-6541292a-aa2a-496e-9f54-8928110be643.jpeg',
-    appleMusicURL:
-      '',
+    appleMusicURL: '',
     doubanURL: 'https://music.douban.com/subject/4116446/',
   },
 

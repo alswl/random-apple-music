@@ -54,7 +54,7 @@ export default function HomePage() {
       messageApi.open({
         type: 'warning',
         content:
-          'For optimal experience, use Safari on macOS or iOS to directly access Apple Music.',
+          '为了获得最佳体验，请在 macOS 或 iOS 上使用 Safari 直接访问 Apple Music。',
         duration: 10,
       });
     }
@@ -107,12 +107,12 @@ export default function HomePage() {
               </div>
             }
             actions={[
-              <Tooltip title="Douban Album page">
+              <Tooltip title="豆瓣专辑">
                 <Button type={'text'} href={album.doubanURL} target={'_blank'}>
                   <InfoOutlined key={'info'}></InfoOutlined>
                 </Button>
               </Tooltip>,
-              <Tooltip title="Play in Apple Music">
+              <Tooltip title="在 Apple Music 中播放">
                 <Button
                   type={'text'}
                   href={album.appleMusicURL}
@@ -122,7 +122,7 @@ export default function HomePage() {
                   <CaretRightOutlined key="play" />
                 </Button>
               </Tooltip>,
-              <Tooltip title="Next Random Album">
+              <Tooltip title="下一个随机专辑">
                 <Button
                   type={'text'}
                   href={'javascript:void(0)'}

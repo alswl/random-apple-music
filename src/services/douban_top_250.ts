@@ -1409,7 +1409,8 @@ const doubanTop250 = [
     date: '2000-06-08',
     coverURL:
       'https://e25ba8-log4d-c.dijingchao.com/202302/1675664316431-bb3b26ab-f448-41d0-8f31-19e33bad07aa.jpeg',
-    appleMusicURL: '',
+    appleMusicURL:
+      'https://music.apple.com/cn/album/%E5%90%8C%E5%90%8D%E5%B0%88%E8%BC%AF-remastered/990152978?l=en-GB',
     doubanURL: 'https://music.douban.com/subject/1405022/',
   },
 
@@ -1447,7 +1448,7 @@ const doubanTop250 = [
     date: '2011-09-02',
     coverURL:
       'https://e25ba8-log4d-c.dijingchao.com/202302/1675664316688-45dd22f9-7aa9-4932-bae4-7ca9499f6df6.jpeg',
-    appleMusicURL: 'https://music.douban.com/subject/1891318/',
+    appleMusicURL: 'https://music.apple.com/cn/album/my-love/544154095?l=en-GB',
     doubanURL: 'https://music.douban.com/subject/6722110/',
   },
 
@@ -1865,7 +1866,8 @@ const doubanTop250 = [
     date: '2008-05-21',
     coverURL:
       'https://e25ba8-log4d-c.dijingchao.com/202302/1675664327353-3c79181a-d0b1-4bc8-aedd-e1bd171d0def.jpeg',
-    appleMusicURL: 'https://music.douban.com/subject/1394549/',
+    appleMusicURL:
+      'https://music.apple.com/cn/album/prisoner-of-love-ep/1444873685?l=en-GB',
     doubanURL: 'https://music.douban.com/subject/3035043/',
   },
 
@@ -2089,7 +2091,8 @@ const doubanTop250 = [
     date: '2008',
     coverURL:
       'https://e25ba8-log4d-c.dijingchao.com/202302/1675664336156-05a4dbb0-4260-4b16-ad8e-08cd47b6a236.jpeg',
-    appleMusicURL: 'https://music.douban.com/subject/3770091/',
+    appleMusicURL:
+      'https://music.apple.com/cn/album/%E9%99%AA%E6%88%91%E6%AD%8C%E5%94%B1-live/1461050682?l=en-GB',
     doubanURL: 'https://music.douban.com/subject/3226297/',
   },
 
@@ -2329,7 +2332,8 @@ const doubanTop250 = [
     date: '2014-12-09',
     coverURL:
       'https://e25ba8-log4d-c.dijingchao.com/202302/1675664346464-f2acbe40-fd0a-478d-9860-6b8740b499ed.jpeg',
-    appleMusicURL: 'https://music.douban.com/subject/4032611/',
+    appleMusicURL:
+      'https://music.apple.com/cn/album/%E4%B8%96%E7%95%8C/1542187294?l=en-GB',
     doubanURL: 'https://music.douban.com/subject/10430415/',
   },
 

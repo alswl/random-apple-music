@@ -1,5 +1,7 @@
 # random-apple-music
 
+![Random Apple Music](./public/favicon-152.png)
+
 Random Apple Music is a simple web page that generates a random Apple Music album.
 
 - [Github Pages App](https://random-apple-music.alswl.com)
